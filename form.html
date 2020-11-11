@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+<form action="simpan.php" method="POST">
+	NIM: <input type="number" name="nim"> <br>
+	Nama: <input type="text" name="nama"> <br>
+	Jenis Kelamin: 
+		<select>
+			<option>Laki-laki</option>
+			<option>Perempuan</option>
+		</select>
+	 <br>
+	TTL: <input type="color" name="ttl"> <br>
+	Status: <input type="radio" name="status"> Menikah
+	        <input type="radio" name="status"> Belum Menikah <br>
+	Makes: <input type="checkbox" name="makes"> Rawon
+				 <input type="checkbox" name="makes"> Soto
+				 <input type="checkbox" name="makes"> Bakso <br>
+	Alamat: <textarea></textarea> <br>
+	Email: <input type="email" name="email"> <br>
+	Password: <input type="password" name="password"> <br>
+	<button type="submit">Submit</button>
+	<button onclick="tes()" type="button">Button</button>
+	<button type="reset">Reset</button>
+</form>
+</body>
+</html>
+<script type="text/javascript">
+function tes(){
+	alert("Hi there");
+}	
+</script>
+
